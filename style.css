@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    background-image: url('images/pattern-background-desktop.svg');
+    background-size: cover; 
+    background-position: 160%; 
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+.container{
+    margin-top: 5%;
+    width: 25%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(180, 185, 249, 0.477);
+    transition: ease-in .3s;
+}
+.image img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 7%;
+}
+.about{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 80%;
+    opacity: .6;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 4, 255, 0.038);
+    border-radius: 10px;
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.music-icon img{
+    width: 70%;
+    margin-left: -10%;
+}
+.plan-text{
+    font-size: 80%;
+    font-weight: bold;
+    margin-left: -0%;
+    margin-top: 1%;
+}
+.hyperlink{
+    font-size: 70%;
+    margin-top: 4%;
+    margin-LEFT: 20%;
+    color: rgb(5, 5, 197);
+    font-weight: bold;
+    opacity: .8;
+    text-decoration: underline;
+    transition: ease-in .3s;
+}
+.price{
+    font-size: 80%;
+    margin-top: -12%;
+    margin-left: 31%;
+    opacity: .5;
+    font-weight: bold;
+}
+.end-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 12%;
+    text-align: center;
+}
+.proceed-button{
+    background-color: rgba(5, 5, 197, 0.864);
+    box-shadow: 1px 1px 10px rgba(5, 5, 197, 0.478);
+    color: white;
+    font-size: 80%;
+    padding: 5%;
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    transition: ease-in .3s;
+}
+.cancel-button{
+    margin-top: 5%;
+    font-size: 75%;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px gray;
+    opacity: .5;
+    transition: ease-in .3s;
+}
+.cancel-button:hover{
+    cursor: pointer;
+    color: red;
+    text-shadow: none;
+    opacity: .7;
+    text-shadow: 0px 0px 1px red;
+    scale: .95;
+}
+.proceed-button:hover{
+    cursor: pointer;
+    background-color: rgba(5, 5, 197, 0.634);
+    scale: 1.05;
+}
+.hyperlink:hover{
+    cursor: pointer;
+    color: rgba(5, 5, 197, 0.541);
+    scale: 1.05;
+}
+.container:hover{
+    scale: 1.05;
+}
